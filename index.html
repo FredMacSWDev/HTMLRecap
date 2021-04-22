@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Federico's Pizzeria</title>
+</head>
+<body>
+    <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: x-large; vertical-align: top;">Federico's Pizzeria</h1>
+    <nav style="text-align: right; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; float: right;">
+        <a href="./index.html">Pizzas</a>
+        <a href="./index.html">Specials</a>
+        <a href="./index.html">Create Your Own</a>
+        <a href="./index.html">Sides</a>
+        <a href="./index.html">Sandwiches</a>
+        <a href="./index.html">Drinks</a>
+    </nav>
+    <img src="../sources/karthik-garikapati-oBbTc1VoT-0-unsplash.jpg"
+                width="560" height="315">
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/KP69YPqHquY?autoplay=1&mute=1">
+    </iframe>
+    <br />
+    <div style="border: solid 2px black; padding: .5rem;">
+        <form>
+            <fieldset>
+                <legend>Customer Information</legend>
+                <p>
+                    <label>
+                        Customer Name:  
+                        <input name="name" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Telephone:  
+                        <input type="tel" name="tel" />
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Email Address:  
+                        <input type="email" name="email" />
+                    </label>
+                </p>
+                <p>
+                    <label for="ccn">Credit Card Number:</label>
+                    <input type="text" name="CC Number"
+                        placeholder="xxxx xxxx xxxx xxxx">                    
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Delivery Instructions</legend>
+                    <p>
+                        <label for="time">Preferred Delivery Time:</label>
+                        <input id="time" name="time" type="time"
+                            min="11:00" max="21:00">
+                    </p>
+                    <p>
+                        <label for="instructions">Delivery Instructions:</label>
+                        <textarea id="instructions" name="instructions" rows="4"></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Submit Order</button>
+                    </p>
+            </fieldset>
+        </form>
+    </div>
+    <footer style="font-family: Arial, Helvetica, sans-serif;">
+        <p>Copyright © 2021 Federico's Pizzeria</p>
+        <p>
+            <a href="#about">About Us</a>
+            <a href="#terms">Terms of Use</a>
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#contact">Contact Us</a>
+            <a href="map">Sitemap</a>
+            <a href="help">Help</a>
+        </p>
+    </footer> 
+</body>
+</html>
